@@ -1,0 +1,265 @@
+@font-face {
+    font-family: varela;
+    src: url("VarelaRound-Regular.ttf");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ 
+  
+ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+ul li{
+    float: right;
+    padding: 10px;
+    margin: 3px;
+    color: rgb(25, 219, 219);
+    box-shadow: 2px 1px 2px   #000000b3;
+   
+} 
+ul li:hover{
+    transform: scale(0.9);
+    color: black;
+
+}
+
+ul h3{
+    float: left;
+    margin-left: 28%;
+    font-style: normal;
+    color: rgb(3, 67, 120);
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 2s 0s linear;
+  
+}
+ul h3:hover{
+    transform: translateY(10px);
+    opacity: 2;
+    color: #19DCD3;
+}
+
+.i{
+    margin-right: 22%;
+}
+.t{
+    margin-right: 1%;
+}
+.c{
+    margin-right: 1%;
+}
+.d{
+    margin-right: 1%;
+}
+
+.image1{
+    width: 50%;
+    height: 50%;
+    object-fit: fill; 
+    margin-left: 25%; 
+    margin-top: 2%;
+     
+   
+}
+.second-box{
+    width: 100%;
+    height: 300px;
+    background-color: #19DCD3;
+    border: 1px solid white;
+    display: block;
+}
+
+.text1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+.text2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mainbox{
+    display: flex;
+     height: 700px;
+     width: 100%;
+     align-items: baseline;
+    
+ 
+     
+ 
+     
+ }
+ div p{
+  height: 500px;
+   
+  width: 300px;
+
+ }   
+ .setting{
+    margin-left: 16%;
+    margin-top: 50px;
+    margin-right: 1%;
+   
+ } 
+ .g{
+    color: black;
+   
+ }
+ .width{
+    width: 500px;
+    height: 150px;
+    text-align: left;
+    /* position: absolute;
+    top: 800px;
+    right: 850px;
+     */
+    
+    
+ }
+ .image2{
+    width: 500px;
+   height: 350px;
+  
+}
+ .ax{
+    position: absolute;
+    width: 499px;
+    height: 120px;
+    color: white;
+   top: 300px;
+   left: 0px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(0, 0, 62, 0.800);
+ } 
+ 
+ .blue-box{
+    position: relative;
+   
+ }   
+ 
+
+ 
+ .setting3{
+    margin-left: 1%;
+ }
+.boxline{
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    
+    text-align: center;
+    padding: 22px;
+    margin: 0px;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+
+ @media only screen and (max-width: 800px) {
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+} 
+ul{
+    width: 100%;
+    margin: 0 30px;
+    display: block;
+   padding: 0 auto;
+    
+}
+ul li{ 
+   margin: 0 auto;
+   display: block;
+}
+
+
+    .container {
+     margin: 0 auto;
+      display: grid;
+      width: 100%;
+      height: 100%;
+    }
+    
+   
+    
+    div p{
+     height: 500px;
+     margin: 10px 10px; 
+     width: 300px;
+    
+     } 
+     .second-box{
+       width: 100%;
+       margin: 0 auto;
+    } 
+    .g{
+        margin-left: 20%;
+        
+    }
+    
+    
+     .image2{
+       position: relative;
+        width: 300px;
+        height: 250px;
+        padding-left: 22%;
+        display: block;       
+    }
+    .ax{
+        position: absolute;
+        width: 300px;
+        height: 120px;
+        color: white;
+       top: 185px;
+       left: 99px;
+        display: inline-block;
+        text-align: center;
+        background-color: rgba(0, 0, 62, 0.800);
+     } 
+    
+    .width{
+        width: 300px;
+        height: 70px;
+        position: relative;
+        left: 5%;
+        bottom: 70px;
+        margin: 50px auto;
+        
+        
+        
+     }
+     .setting3{
+        padding-left: 20%;
+     }
+     .boxline{
+        width: 100%;
+        height: 20px;
+        margin: 0 auto;
+        padding: 22px;      
+
+}
+.wrapper{
+    width: 100%;
+}
+
+}
