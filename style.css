@@ -1,11 +1,12 @@
 @font-face {
     font-family: varela;
-    src: url("VarelaRound-Regular.ttf");
+    src: url("VarelaRound-Regular.ttf") format("truetype")
 }
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: varela;
 }
 
  
@@ -113,6 +114,7 @@ ul h3:hover{
     margin-left: 16%;
     margin-top: 50px;
     margin-right: 1%;
+  
    
  } 
  .g{
@@ -140,8 +142,8 @@ ul h3:hover{
     width: 499px;
     height: 120px;
     color: white;
-   top: 300px;
-   left: 0px;
+    top: 305px;
+    left: 0px;
     display: inline-block;
     text-align: center;
     background-color: rgba(0, 0, 62, 0.800);
@@ -193,12 +195,13 @@ ul li{
 }
 
 
-    .container {
-     margin: 0 auto;
-      display: grid;
-      width: 100%;
-      height: 100%;
-    }
+   .container{
+          margin: 0 auto;
+         display: grid;
+         width: 100%;
+         height: 100%;
+       
+   } 
     
    
     
@@ -213,17 +216,20 @@ ul li{
        margin: 0 auto;
     } 
     .g{
-        margin-left: 20%;
+        margin-left: 7%;
+       
         
     }
-    
+   
     
      .image2{
        position: relative;
         width: 300px;
         height: 250px;
-        padding-left: 22%;
-        display: block;       
+       
+        display: block; 
+        padding-left: 5%;
+           
     }
     .ax{
         position: absolute;
@@ -231,10 +237,12 @@ ul li{
         height: 120px;
         color: white;
        top: 185px;
-       left: 99px;
+       left: 66px;
         display: inline-block;
         text-align: center;
         background-color: rgba(0, 0, 62, 0.800);
+       
+       
      } 
     
     .width{
@@ -244,12 +252,15 @@ ul li{
         left: 5%;
         bottom: 70px;
         margin: 50px auto;
+        padding-right: 30%;
         
         
         
      }
      .setting3{
-        padding-left: 20%;
+        padding-left: 15%;
+        padding-top: 20%;
+       
      }
      .boxline{
         width: 100%;
@@ -261,5 +272,13 @@ ul li{
 .wrapper{
     width: 100%;
 }
+.setting{
+    margin-left: 15%;
+   
+}
+.blue-box{
+    padding-left: 10%;
+}
+
 
 }
